@@ -1,0 +1,77 @@
+  /* Custom scrollbar */
+      html::-webkit-scrollbar {
+        width: 0.5rem;
+        background-color: #020307;
+      }
+      html::-webkit-scrollbar-thumb {
+        background-color: #ff2c1f;
+        border-radius: 5rem;
+      }
+      
+      /* Custom styles that are difficult with Tailwind */
+      .navbar-link {
+        position: relative;
+      }
+      .navbar-link::after {
+        content: '';
+        position: absolute;
+        background-color: #ff2c1f;
+        width: 0;
+        height: 3px;
+        left: 0;
+        bottom: -4px;
+        transition: 0.4s all linear;
+      }
+      .navbar-link:hover::after, .home-active::after {
+        width: 100%;
+      }
+      
+      /* Home section background */
+      .home-section {
+        background: linear-gradient(rgba(2, 3, 7, 0.5), rgba(2, 3, 7, 0.5)), url('img/home.jpg');
+        background-position: center;
+        background-size: cover;
+      }
+      
+      /* Mobile menu animation */
+      .mobile-menu {
+        transition: top 0.3s ease;
+      }  /* Custom scrollbar */
+      html::-webkit-scrollbar {
+        width: 0.5rem;
+        background-color: #020307;
+      }
+      html::-webkit-scrollbar-thumb {
+        background-color: #ff2c1f;
+        border-radius: 5rem;
+      }
+      
+      /* Custom styles that are difficult with Tailwind */
+      .navbar-link {
+        position: relative;
+      }
+      .navbar-link::after {
+        content: '';
+        position: absolute;
+        background-color: #ff2c1f;
+        width: 0;
+        height: 3px;
+        left: 0;
+        bottom: -4px;
+        transition: 0.4s all linear;
+      }
+      .navbar-link:hover::after, .home-active::after {
+        width: 100%;
+      }
+      
+      /* Home section background */
+      .home-section {
+        background: linear-gradient(rgba(2, 3, 7, 0.5), rgba(2, 3, 7, 0.5)),url(img/home3.jpg); 
+        background-position: center;
+        background-size: cover;
+      }
+      
+      /* Mobile menu animation */
+      .mobile-menu {
+        transition: top 0.3s ease;
+      }
