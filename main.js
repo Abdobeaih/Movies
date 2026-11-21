@@ -2,10 +2,10 @@
       window.addEventListener('scroll', () => {
         const header = document.getElementById('header');
         if (window.scrollY > 50) {
-          header.classList.add('bg-bg', 'shadow-md');
+          header.classList.add('bg-text', 'shadow-md');
           header.classList.remove('bg-transparent');
         } else {
-          header.classList.remove('bg-bg', 'shadow-md');
+          header.classList.remove('bg-text', 'shadow-md');
           header.classList.add('bg-transparent');
         }
       });
